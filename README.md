@@ -31,6 +31,7 @@ Algorithms
 * sha256d
 * lbry
 * yespower
+* yespowerlitb @todo: testing
 * lyra2re2
 
 
@@ -48,7 +49,8 @@ So far this native Node.js addon can do the following hashing algos
 ```javascript
 var multiHashing = require('multi-hashing');
 
-var algorithms = ['quark', 'x11', 'scrypt', 'scryptn', 'scryptjane', 'keccak', 'bcrypt', 'skein', 'blake', 'yescrypt-0.5', 'yespower', 'lyra2re2'];
+var algorithms = ['quark', 'x11', 'scrypt', 'scryptn', 'scryptjane', 'keccak', 'bcrypt', 'skein', 'blake', 'yescrypt-0.5', 'yespower', 'yespowerlitb',
+'lyra2re2'];
 
 var data = new Buffer("7000000001e980924e4e1109230383e66d62945ff8e749903bea4336755c00000000000051928aff1b4d72416173a8c3948159a09a73ac3bb556aa6bfbcad1a85da7f4c1d13350531e24031b939b9e2b", "hex");
 
