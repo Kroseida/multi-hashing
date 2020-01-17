@@ -664,6 +664,7 @@ DECLARE_INIT(init) {
     NODE_SET_METHOD(exports, "x13", x13);
     NODE_SET_METHOD(exports, "x15", x15);
     NODE_SET_METHOD(exports, "yespower", yespower);
+    NODE_SET_METHOD(exports, "yespowerlitb", yespowerlitb);
     NODE_SET_METHOD(exports, "yespower_0_5_R8", yespower_0_5_R8);
     NODE_SET_METHOD(exports, "yespower_0_5_R8G", yespower_0_5_R8G);
     NODE_SET_METHOD(exports, "yespower_0_5_R16", yespower_0_5_R16);
