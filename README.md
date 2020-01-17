@@ -26,7 +26,7 @@ Algorithms
 * sha256d
 * lbry
 * yespower
-* yespowerlitb @todo: testing
+* yespowerlitb
 * lyra2re2
 
 
